@@ -17,6 +17,9 @@ def json_list():
     return {0: ['hi', 'bye', 'no']}
 
 
+def say_hello():
+    return "hi"
+
 @app.route('/user')
 def get_user():
     return {'id': 1}
