@@ -1,4 +1,7 @@
 from flask import Flask
+from handy_methods.nested import inner_nested, nested_str
+from methods import import_method
+from .handy_methods.inner import *
 
 app = Flask(__name__)
 
@@ -17,9 +20,12 @@ def json_list():
     return {0: ['hi', 'bye', 'no']}
 
 
-def say_hello():
-    return "hi"
-
 @app.route('/user')
 def get_user():
     return {'id': 1}
+
+import_method()
+
+nested_str()
+
+inner_nested()
