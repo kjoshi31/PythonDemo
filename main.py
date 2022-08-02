@@ -16,12 +16,17 @@ def another():
     return "another route!"
 
 
-def json_list():
+def json_list_lk():
     x=3
     y=100
     d = "string in there"
     z=3000
     a = x + y + z
+    def wow():
+        a= 3
+        b=4
+        c=4
+        return "nested wow"
     return {0: ['hi', 'bye', 'no', d]}
 
 
