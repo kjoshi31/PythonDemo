@@ -33,3 +33,5 @@ inner_nested()
 print('hello world')
 
 print('wow')
+
+print('wow')
