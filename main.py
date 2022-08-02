@@ -31,3 +31,5 @@ nested_str()
 inner_nested()
 
 print('hello world')
+
+print('wow')
