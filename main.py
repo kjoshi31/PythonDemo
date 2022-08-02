@@ -22,7 +22,7 @@ def json_list():
     d = "string in there"
     z=3000
     a = x + y + z
-    return {0: ['hi', 'bye', 'no']}
+    return {0: ['hi', 'bye', 'no', d]}
 
 
 @app.route('/user')
