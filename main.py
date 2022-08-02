@@ -29,3 +29,5 @@ import_method()
 nested_str()
 
 inner_nested()
+
+print('hello world')
