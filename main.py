@@ -46,4 +46,4 @@ print('hello world')
 
 print('wow')
 
-print('wow')
+uuu = 3
