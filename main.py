@@ -19,6 +19,7 @@ def another():
 def json_list():
     x=3
     y=100
+    d = "string in there"
     z=3000
     a = x + y + z
     return {0: ['hi', 'bye', 'no']}
