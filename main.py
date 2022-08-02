@@ -36,6 +36,8 @@ def get_user():
 
 import_method()
 
+print('yooo')
+
 nested_str()
 
 inner_nested()
