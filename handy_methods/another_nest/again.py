@@ -1,0 +1,2 @@
+def wow():
+    return "wow"
