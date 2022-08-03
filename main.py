@@ -16,7 +16,7 @@ def another():
     return "another route!"
 
 
-def json_list():
+def json_f():
     x=3
     y=100
     d = "string in there"
