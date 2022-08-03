@@ -1,2 +1,2 @@
-def wow():
-    return "wow"
+def never():
+    return "ever"

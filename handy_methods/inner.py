@@ -1,3 +1,3 @@
 
 def inner():
-    return [-1,0,1]
+    return {0:12,1:"a",2:['a','b']}

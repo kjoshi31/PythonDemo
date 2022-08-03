@@ -45,5 +45,3 @@ inner_nested()
 print('hello world')
 
 print('wow')
-
-uuu = 3
