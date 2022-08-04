@@ -16,16 +16,33 @@ def another():
     return "another route!"
 
 
-def json_list():
-    return {0: ['hi', 'bye', 'no']}
+def json_list_lk():
+    x=3
+    y=100
+    d = "string in there"
+    z=3000
+    a = x + y + z
+    def wow():
+        a= 3
+        b=4
+        c=4
+        return "nested wow"
+    return {0: ['hi', 'bye', 'no', d]}
 
 
 @app.route('/user')
 def get_user():
     return {'id': 1}
 
+print('below get user')
+
 import_method()
 
+print('below import')
+
+a = {'dog':'cat'}
 nested_str()
+
+inner_nested()
 
 inner_nested()
