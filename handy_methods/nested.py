@@ -6,3 +6,6 @@ def nested_str():
 def inner_nested():
     x = 3
     return [inner(), x]
+
+def nested_nums():
+    return {0:[1,2,3], 1:[2,3,4]}
