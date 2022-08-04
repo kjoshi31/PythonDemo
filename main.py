@@ -40,7 +40,7 @@ import_method()
 
 print('below import')
 
-a = [{'dog':'cat'}]
+a = {'dog':'cat'}
 nested_str()
 
 inner_nested()
@@ -48,5 +48,3 @@ inner_nested()
 inner_nested()
 
 print('hello sir')
-
-x = 3
