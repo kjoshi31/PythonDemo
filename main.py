@@ -36,8 +36,7 @@ def get_user():
 
 import_method()
 
-print('yooo')
-
+a = {'dog':'cat'}
 nested_str()
 
 inner_nested()
@@ -49,3 +48,5 @@ print('wow')
 uuu = 3
 
 print('no')
+
+x = 3+ 3
