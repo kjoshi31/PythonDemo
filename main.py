@@ -34,7 +34,11 @@ def json_list_lk():
 def get_user():
     return {'id': 1}
 
+print('below get user')
+
 import_method()
+
+print('below import')
 
 a = {'dog':'cat'}
 nested_str()
