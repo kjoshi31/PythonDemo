@@ -36,6 +36,7 @@ def get_user():
 
 import_method()
 
+a = {'dog':'cat'}
 nested_str()
 
 inner_nested()
