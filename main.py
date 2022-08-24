@@ -31,7 +31,7 @@ def json_list_lk():
 
 @app.route('/user')
 def get_user():
-    return {'id': 2}
+  return {'id': 2}
 
 import_method()
 
