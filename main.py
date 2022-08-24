@@ -6,7 +6,7 @@ from .handy_methods.inner import *
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/hi')
 def hello_world():
     return "HELLO, World!!"
 
