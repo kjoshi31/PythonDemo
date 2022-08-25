@@ -6,7 +6,7 @@ from .handy_methods.inner import *
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/hi')
 def hello_world():
     return "HELLO, World!!"
 
@@ -31,7 +31,7 @@ def json_list_lk():
 
 @app.route('/user')
 def get_user():
-    return {'id': 1}
+  return {'id': 2}
 
 import_method()
 
